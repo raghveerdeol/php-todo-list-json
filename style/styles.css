@@ -1,5 +1,32 @@
-.list{
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    padding: 2rem;
+}
+.new-task{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 0 auto;
+    background-color: goldenrod;
+    padding: 1rem;
+}
+input{
+    padding: .5rem 1.6rem;
+    border: none;
+    border-radius: 10px;
+}
+.list, h2{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: antiquewhite;
+    width: 70%;
+    margin: 0 auto;
+    line-height: 2rem;
+    padding: 1rem;
 }

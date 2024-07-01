@@ -24,15 +24,33 @@
 <body>
     <main>
         <div id="app">
+            <h1>Aggiungi attività</h1>
+            <form action="./index.php" method="get" class="new-task">
+                <div>
+                    <label for="orario">Orario: </label>
+                    <input type="text" name="orario" id="orario" v-model="orario">
+                </div>
+                <div>
+                    <label for="attività">Attività: </label>
+                    <input type="text" name="attività" id="attività" v-model="attività">
+                </div>
+                <input type="submit" class="btn">
+            </form>
+            <select name="filtra" id="filtra" v-model="stato" @click="getData(stato)">
+                <option value="" selected>Tutti</option>
+                <option value="svolto" > Svolto </option>
+                <option value="da svolgere"> Da svolgere </option>
+            </select>
+            <h2>To Do list</h2>
             <div class="list">
                 <div>
-                    <h1>orario</h1>
-                    <p class="orario" v-for="singolaAttività in listaAttività">
+                    <h3>orario</h3>
+                    <p v-for="singolaAttività in listaAttività">
                         {{ singolaAttività.orario }}
                     </p>
                 </div>
                 <div>
-                    <h1>Attività</h1>
+                    <h3>Attività</h3>
                     <p  v-for="singolaAttività in listaAttività">
                     {{ singolaAttività.attività }}
                     </p>

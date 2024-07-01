@@ -1,43 +1,53 @@
 [
         {
             "orario": "07:00",
-            "attività": "Sveglia e colazione"
+            "attività": "Sveglia e colazione",
+            "stato": "svolto"
         },
         {
             "orario": "08:00",
-            "attività": "Esercizio fisico"
+            "attività": "Esercizio fisico",
+            "stato": "svolto"
         },
         {
             "orario": "09:00",
-            "attività": "Lavoro/studio"
+            "attività": "Lavoro/studio",
+            "stato": "svolto"
         },
         {
             "orario": "12:30",
-            "attività": "Pranzo"
+            "attività": "Pranzo",
+            "stato": "svolto"
         },
         {
             "orario": "13:30",
-            "attività": "Pausa rilassante"
+            "attività": "Pausa rilassante",
+            "stato": "svolto"
         },
         {
             "orario": "14:00",
-            "attività": "Ripresa del lavoro/studio"
+            "attività": "Ripresa del lavoro/studio",
+            "stato": "da svolgere"
         },
         {
             "orario": "17:00",
-            "attività": "Attività ricreative o hobby"
+            "attività": "Attività ricreative o hobby",
+            "stato": "da svolgere"
         },
         {
             "orario": "19:00",
-            "attività": "Cena"
+            "attività": "Cena",
+            "stato": "da svolgere"
         },
         {
             "orario": "20:00",
-            "attività": "Tempo libero/lettura"
+            "attività": "Tempo libero/lettura",
+            "stato": "da svolgere"
         },
         {
             "orario": "22:00",
-            "attività": "Prepararsi per andare a dormire"
+            "attività": "Prepararsi per andare a dormire",
+            "stato": "da svolgere"
         }
 ]
 

@@ -3,20 +3,21 @@ createApp({
     data() {
         return {
             listaAttività: [],
+            orario: '',
+            attività: '',
+            stato: ""
         }
     },
     methods: {
-        getData() {
+        getData(stato) {
             axios.get('./server.php', {
                 params: {
-                    
+                    stato: stato,
                 }
             })
             .then((response) => {
                 // console.log(response.data);
-                response.data.forEach(element => {
-                    this.listaAttività.push(element);
-                });
+                this.listaAttività = response.data;
             })
             .catch(function (error) {
                 console.log(error);
