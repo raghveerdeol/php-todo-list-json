@@ -1,5 +1,4 @@
-{
-    "attività_giornaliere": [
+[
         {
             "orario": "07:00",
             "attività": "Sveglia e colazione"
@@ -40,5 +39,5 @@
             "orario": "22:00",
             "attività": "Prepararsi per andare a dormire"
         }
-    ]
-}
+]
+
