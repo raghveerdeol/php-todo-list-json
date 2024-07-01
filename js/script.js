@@ -2,8 +2,7 @@ const { createApp } = Vue;
 createApp({
     data() {
         return {
-            orario: [],
-            attività: [],
+            listaAttività: [],
         }
     },
     methods: {
@@ -16,11 +15,8 @@ createApp({
             .then((response) => {
                 // console.log(response.data);
                 response.data.forEach(element => {
-                    this.orario.push(element.orario);
-                    this.attività.push(element.attività);
+                    this.listaAttività.push(element);
                 });
-                console.log(this.orario);
-                console.log(this.attività);
             })
             .catch(function (error) {
                 console.log(error);

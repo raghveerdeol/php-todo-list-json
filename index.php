@@ -19,11 +19,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo</title>
+    <link rel="stylesheet" href="./style/styles.css">
 </head>
 <body>
     <main>
         <div id="app">
-
+            <div class="list">
+                <div>
+                    <h1>orario</h1>
+                    <p class="orario" v-for="singolaAttività in listaAttività">
+                        {{ singolaAttività.orario }}
+                    </p>
+                </div>
+                <div>
+                    <h1>Attività</h1>
+                    <p  v-for="singolaAttività in listaAttività">
+                    {{ singolaAttività.attività }}
+                    </p>
+                </div>
+            </div>
         </div>
     </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.2/axios.min.js" integrity="sha512-JSCFHhKDilTRRXe9ak/FJ28dcpOJxzQaCd3Xg8MyF6XFjODhy/YMCM8HW0TFDckNHWUewW+kfvhin43hKtJxAw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
