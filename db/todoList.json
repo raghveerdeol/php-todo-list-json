@@ -1,0 +1,44 @@
+{
+    "attività_giornaliere": [
+        {
+            "orario": "07:00",
+            "attività": "Sveglia e colazione"
+        },
+        {
+            "orario": "08:00",
+            "attività": "Esercizio fisico"
+        },
+        {
+            "orario": "09:00",
+            "attività": "Lavoro/studio"
+        },
+        {
+            "orario": "12:30",
+            "attività": "Pranzo"
+        },
+        {
+            "orario": "13:30",
+            "attività": "Pausa rilassante"
+        },
+        {
+            "orario": "14:00",
+            "attività": "Ripresa del lavoro/studio"
+        },
+        {
+            "orario": "17:00",
+            "attività": "Attività ricreative o hobby"
+        },
+        {
+            "orario": "19:00",
+            "attività": "Cena"
+        },
+        {
+            "orario": "20:00",
+            "attività": "Tempo libero/lettura"
+        },
+        {
+            "orario": "22:00",
+            "attività": "Prepararsi per andare a dormire"
+        }
+    ]
+}
